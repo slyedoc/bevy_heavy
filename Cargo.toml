@@ -48,7 +48,7 @@ std = ["bevy_math/std", "glam_matrix_extras/std"]
 # Math
 approx = { version = "0.5", optional = true }
 bevy_math = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false }
-glam_matrix_extras = { git = "https://github.com/slyedoc/glam_matrix_extras", branch = "bevy-main", default-features = false, features = [
+glam_matrix_extras = { git = "https://github.com/slyedoc/glam_matrix_extras", branch = "aurora", default-features = false, features = [
     "f32",
 ] }
 
