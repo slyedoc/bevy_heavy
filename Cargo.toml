@@ -1,7 +1,7 @@
 [package]
 name = "bevy_heavy"
-version = "0.4.0-dev"
-edition = "2021"
+version = "0.6.0-dev"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 authors = ["Joona Aalto <jondolf.dev@gmail.com>"]
 description = "Mass property computation for Bevy's geometric primitives."
@@ -69,8 +69,8 @@ bevy_math = { git = "https://github.com/bevyengine/bevy", branch = "main", defau
 ] }
 
 # Random number generation
-rand = { version = "0.9", default-features = false }
-rand_chacha = { version = "0.9", default-features = false }
+rand = { version = "0.10", default-features = false }
+rand_chacha = { version = "0.10", default-features = false }
 
 [lints.clippy]
 alloc_instead_of_core = "warn"
